@@ -72,7 +72,6 @@ public class ValidatePHPTravelTest extends TestBase {
 	// Count the total 4* Hotels and print hotel name and price in INR
 		@Test(priority = 3)
 		public void validate4StarHotel()  {
-			System.out.println("inside last  method");
 			hotelPlanPage.changeCurrencyoption();
 			searchPage.submitButton();
 			hotelPlanPage.countFourStarhotel();
