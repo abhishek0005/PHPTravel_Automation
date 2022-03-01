@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-01T03:53:34Z" name="Suite" finished-at="2022-03-01T03:53:56Z" duration-ms="21294">
+  <suite started-at="2022-03-01T04:47:32Z" name="Default suite" finished-at="2022-03-01T04:48:18Z" duration-ms="45930">
     <groups>
     </groups>
-    <test started-at="2022-03-01T03:53:34Z" name="Test" finished-at="2022-03-01T03:53:56Z" duration-ms="21294">
-      <class name="com.php.qa.testcases.Scenario_7_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:34Z" name="setUp" finished-at="2022-03-01T09:23:41Z" duration-ms="6754" status="PASS">
+    <test started-at="2022-03-01T04:47:32Z" name="Default test" finished-at="2022-03-01T04:48:18Z" duration-ms="45930">
+      <class name="com.php.qa.testcases.ValidatePHPTravelTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.php.qa.testcases.ValidatePHPTravelTest@176b75f7]" started-at="2022-03-01T10:17:32Z" name="setUp" finished-at="2022-03-01T10:17:40Z" duration-ms="8113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validate4StarHotel()[pri:0, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:41Z" name="validate4StarHotel" finished-at="2022-03-01T09:23:54Z" duration-ms="13132" status="PASS">
+        <test-method signature="countSearchResult()[pri:0, instance:com.php.qa.testcases.ValidatePHPTravelTest@176b75f7]" started-at="2022-03-01T10:17:40Z" name="countSearchResult" finished-at="2022-03-01T10:17:52Z" duration-ms="11657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSearchResult -->
+        <test-method signature="sortHotelNameWithResult()[pri:1, instance:com.php.qa.testcases.ValidatePHPTravelTest@176b75f7]" started-at="2022-03-01T10:17:52Z" name="sortHotelNameWithResult" finished-at="2022-03-01T10:17:54Z" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHotelNameWithResult -->
+        <test-method signature="sliderFunctionality()[pri:2, instance:com.php.qa.testcases.ValidatePHPTravelTest@176b75f7]" started-at="2022-03-01T10:17:54Z" name="sliderFunctionality" finished-at="2022-03-01T10:18:11Z" duration-ms="17221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionality -->
+        <test-method signature="validate4StarHotel()[pri:3, instance:com.php.qa.testcases.ValidatePHPTravelTest@176b75f7]" started-at="2022-03-01T10:18:11Z" name="validate4StarHotel" finished-at="2022-03-01T10:18:18Z" duration-ms="6820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate4StarHotel -->
-        <test-method signature="validateHotelNameAndPrice()[pri:1, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:54Z" name="validateHotelNameAndPrice" finished-at="2022-03-01T09:23:55Z" duration-ms="1040" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHotelNameAndPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:55Z" name="tearDown" finished-at="2022-03-01T09:23:56Z" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.php.qa.testcases.ValidatePHPTravelTest@176b75f7]" started-at="2022-03-01T10:18:18Z" name="tearDown" finished-at="2022-03-01T10:18:18Z" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.php.qa.testcases.Scenario_7_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.php.qa.testcases.ValidatePHPTravelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

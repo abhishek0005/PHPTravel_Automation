@@ -13,7 +13,7 @@ import com.php.qa.pages.HotelPlanPage;
 import com.php.qa.pages.LoginPage;
 import com.php.qa.pages.SearchPage;
 
-public class Scenario_4_5_6_Test extends TestBase {
+public class ValidatePHPTravelTest extends TestBase {
 
 	DashboardPage dashboardPage;
 	LoginPage loginPage;
@@ -23,7 +23,7 @@ public class Scenario_4_5_6_Test extends TestBase {
 	List<WebElement> searchResult;
 	int searchResultCount;
 
-	public Scenario_4_5_6_Test() {
+	public ValidatePHPTravelTest() {
 		super();
 	}
 
@@ -68,6 +68,20 @@ public class Scenario_4_5_6_Test extends TestBase {
 		System.out.println("Passed----TC_6.Validate the price range sliding bar functionality and Hotels Price are falling under this range is passed----");
 
 	}
+	
+	// Count the total 4* Hotels and print hotel name and price in INR
+		@Test(priority = 3)
+		public void validate4StarHotel()  {
+			System.out.println("inside last  method");
+			hotelPlanPage.changeCurrencyoption();
+			searchPage.submitButton();
+			hotelPlanPage.countFourStarhotel();
+			hotelPlanPage.validateHoteNamePriceINR();
+			System.out.println("Passed----TC_7.Count the total 4* Hotels and print Hotel name and price in INR (Indian Rupees) not in USD is passed----");
+			
+			
+		}
+		
 	
 	
 	@AfterClass()

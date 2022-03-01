@@ -79,5 +79,9 @@ public class SearchPage extends TestBase {
 		return new HotelPlanPage();
 
 	}
+	
+	public void submitButton() {
+		submitButton.click();
+	}
 
 }

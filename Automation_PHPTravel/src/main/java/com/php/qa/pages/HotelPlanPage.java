@@ -68,6 +68,15 @@ public class HotelPlanPage extends TestBase {
 	
 	@FindBy(xpath="//*[contains(text(),'Search Hotels in dubai')]")
 	WebElement seachHotel;
+	
+	@FindBy(xpath="//button[@id=\"currency\"]")
+	WebElement currentDropDown;
+	
+	@FindBy(xpath="//a[@href=\"https://www.phptravels.net/currency-INR\"]")
+	WebElement INROption;
+	
+	@FindBy(xpath="//*[starts-with(@class,'theme-btn') and @href='https://www.phptravels.net/login']")
+	WebElement loginInButtons;
 
 	public List<WebElement> CountAllHotels = new ArrayList<WebElement>();
 	public List<WebElement> CountFourStarHotelHotels = new ArrayList<WebElement>();
@@ -197,11 +206,21 @@ public class HotelPlanPage extends TestBase {
 
 	}
 	
+	// Below method is created to change the currency from the top navigation and select INR Option.
+		public void changeCurrencyoption() {
+			jse.executeScript("window.scrollTo(0,0)");
+			currentDropDown.click();
+			INROption.click();
+			//loginInButtons.click();
+			
+		}
+	
 	// Below method is created to count the 4 star hotel only and print the same on the console. 
 	public void countFourStarhotel()  {
-		CountFourStarHotelHotels.addAll(fourStarHotel);
+		
 		jse.executeScript("window.scrollBy(0,800)");
 		count4StarHotel.click();
+		CountFourStarHotelHotels.addAll(fourStarHotel);
 		System.out.println("Total no of 4 star Hotels are: " + CountFourStarHotelHotels.size());
 
 	}

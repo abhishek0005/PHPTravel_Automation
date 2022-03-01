@@ -21,14 +21,7 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//*[@class=\"btn btn-default btn-lg btn-block effect ladda-button waves-effect\"]")
 	WebElement loginInButton;
 	
-	@FindBy(xpath="//button[@id=\"currency\"]")
-	WebElement currentDropDown;
-	
-	@FindBy(xpath="//a[@href=\"https://www.phptravels.net/currency-INR\"]")
-	WebElement INROption;
-	
-	@FindBy(xpath="//*[starts-with(@class,'theme-btn') and @href='https://www.phptravels.net/login']")
-	WebElement loginInButtons;
+
 	
 
 	// Initialize the PageFactory and "This" keyword will point to current class object
@@ -47,14 +40,7 @@ public class LoginPage extends TestBase {
 		
 	}
 	
-	// Below method is created to change the currency from the top navigation and select INR Option.
-	public void changeCurrencyoption() {
-		
-		currentDropDown.click();
-		INROption.click();
-		loginInButtons.click();
-		
-	}
+	
 	
 
 }
