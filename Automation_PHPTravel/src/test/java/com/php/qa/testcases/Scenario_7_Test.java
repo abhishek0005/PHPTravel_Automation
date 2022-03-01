@@ -30,7 +30,7 @@ public class Scenario_7_Test extends TestBase {
 
 	// Count the total 4* Hotels in INR
 	@Test(priority = 0)
-	public void validate4StarHotel() {
+	public void validate4StarHotel()  {
 
 		loginPage.changeCurrencyoption();
 		dashboardPage = loginPage.enterCredentials(prop.getProperty("email"), prop.getProperty("password"));

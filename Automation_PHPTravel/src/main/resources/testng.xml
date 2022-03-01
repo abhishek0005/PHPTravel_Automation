@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-	  <class name="com.php.qa.testcases.Scenario_4_5_6_Test"/> 
-	  <!--<class name="com.php.qa.testcases.Scenario_7_Test"/>  -->
+	 <!-- <class name="com.php.qa.testcases.Scenario_4_5_6_Test"/> -->
+	  <class name="com.php.qa.testcases.Scenario_7_Test"/>  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

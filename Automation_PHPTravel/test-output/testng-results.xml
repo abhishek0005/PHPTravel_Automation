@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-28T18:59:37Z" name="Suite" finished-at="2022-02-28T19:00:14Z" duration-ms="37486">
+  <suite started-at="2022-03-01T03:53:34Z" name="Suite" finished-at="2022-03-01T03:53:56Z" duration-ms="21294">
     <groups>
     </groups>
-    <test started-at="2022-02-28T18:59:37Z" name="Test" finished-at="2022-02-28T19:00:14Z" duration-ms="37486">
-      <class name="com.php.qa.testcases.Scenario_4_5_6_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.php.qa.testcases.Scenario_4_5_6_Test@7d8704ef]" started-at="2022-03-01T00:29:37Z" name="setUp" finished-at="2022-03-01T00:29:44Z" duration-ms="7048" status="PASS">
+    <test started-at="2022-03-01T03:53:34Z" name="Test" finished-at="2022-03-01T03:53:56Z" duration-ms="21294">
+      <class name="com.php.qa.testcases.Scenario_7_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:34Z" name="setUp" finished-at="2022-03-01T09:23:41Z" duration-ms="6754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="countSearchResult()[pri:0, instance:com.php.qa.testcases.Scenario_4_5_6_Test@7d8704ef]" started-at="2022-03-01T00:29:44Z" name="countSearchResult" finished-at="2022-03-01T00:29:55Z" duration-ms="11014" status="PASS">
+        <test-method signature="validate4StarHotel()[pri:0, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:41Z" name="validate4StarHotel" finished-at="2022-03-01T09:23:54Z" duration-ms="13132" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- countSearchResult -->
-        <test-method signature="sortHotelNameWithResult()[pri:1, instance:com.php.qa.testcases.Scenario_4_5_6_Test@7d8704ef]" started-at="2022-03-01T00:29:55Z" name="sortHotelNameWithResult" finished-at="2022-03-01T00:29:57Z" duration-ms="1869" status="PASS">
+        </test-method> <!-- validate4StarHotel -->
+        <test-method signature="validateHotelNameAndPrice()[pri:1, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:54Z" name="validateHotelNameAndPrice" finished-at="2022-03-01T09:23:55Z" duration-ms="1040" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sortHotelNameWithResult -->
-        <test-method signature="sliderFunctionality()[pri:2, instance:com.php.qa.testcases.Scenario_4_5_6_Test@7d8704ef]" started-at="2022-03-01T00:29:57Z" name="sliderFunctionality" finished-at="2022-03-01T00:30:14Z" duration-ms="17177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sliderFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.php.qa.testcases.Scenario_4_5_6_Test@7d8704ef]" started-at="2022-03-01T00:30:14Z" name="tearDown" finished-at="2022-03-01T00:30:14Z" duration-ms="312" status="PASS">
+        </test-method> <!-- validateHotelNameAndPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.php.qa.testcases.Scenario_7_Test@17f7cd29]" started-at="2022-03-01T09:23:55Z" name="tearDown" finished-at="2022-03-01T09:23:56Z" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.php.qa.testcases.Scenario_4_5_6_Test -->
+      </class> <!-- com.php.qa.testcases.Scenario_7_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

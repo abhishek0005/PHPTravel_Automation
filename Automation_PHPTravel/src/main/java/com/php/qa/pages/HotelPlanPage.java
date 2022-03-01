@@ -11,6 +11,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.php.qa.base.TestBase;
 
@@ -64,8 +65,12 @@ public class HotelPlanPage extends TestBase {
 
 	@FindBy(xpath = "//li[starts-with(@class,'mix stars_4 hotels_amenities_')]//child::span[@class='price__num']")
 	List<WebElement> fourStarHotelPrice;
+	
+	@FindBy(xpath="//*[contains(text(),'Search Hotels in dubai')]")
+	WebElement seachHotel;
 
 	public List<WebElement> CountAllHotels = new ArrayList<WebElement>();
+	public List<WebElement> CountFourStarHotelHotels = new ArrayList<WebElement>();
 	public HashMap<String, String> nameWithReviewStar = new HashMap<String, String>();
 	public List<WebElement> priceRange = new ArrayList<WebElement>();
 	public HashMap<String, String> fourStarHotelNamePrice = new HashMap<>();
@@ -193,12 +198,11 @@ public class HotelPlanPage extends TestBase {
 	}
 	
 	// Below method is created to count the 4 star hotel only and print the same on the console. 
-	public void countFourStarhotel() {
-		System.out.println("Inside Count method");
-		intializeAction();
+	public void countFourStarhotel()  {
+		CountFourStarHotelHotels.addAll(fourStarHotel);
 		jse.executeScript("window.scrollBy(0,800)");
 		count4StarHotel.click();
-		System.out.println("Total no of 4 star Hotels are: " + fourStarHotel.size());
+		System.out.println("Total no of 4 star Hotels are: " + CountFourStarHotelHotels.size());
 
 	}
 	
