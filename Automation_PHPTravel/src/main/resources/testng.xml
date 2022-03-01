@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-	  <class name="com.php.qa.testcases.ValidatePHPTravelTestt"/>
+	  <class name="com.php.qa.testcases.ValidatePHPTravelTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
